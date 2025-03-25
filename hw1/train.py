@@ -215,7 +215,6 @@ def train(
                 total += labels.size(0)
                 correct += (predicted == labels).sum().item()
 
-            # 每個 epoch 結束後更新 scheduler
             scheduler.step()
 
             epoch_time = time.time() - start_time
