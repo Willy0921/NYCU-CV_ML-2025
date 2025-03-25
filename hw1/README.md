@@ -71,12 +71,12 @@ Follow these steps to set up the environment and install dependencies:
 ## Usage
 Put the dataset into ```./data```
 ### Training
-   ```python
+   ```sh
    python train.py --data_dir ./data --epochs [NUMBER_OF_EPOCHS] --batch_size [BATCH_SIZE]
    ```
    After training, the checkpoint will save at ```./exp/XXXXXXXX/```
 ### Inference
-   ```python
+   ```sh
    python inference.py --model_path [PATH_TO_YOUR_CHECKPOINT] --image_folder [PATH_TO_TEST_IMAGE_FOLDER] --class_labels ./idx_to_class.json 
    ```
    The prediction results will appear at ```./prediction.csv```
