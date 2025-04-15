@@ -257,7 +257,7 @@ def train(
             save_checkpoint(model, optimizer, epoch, exp_dir)
             break
 
-    # 畫 training curve
+    # training curve
     plot_training_curves(
         train_loss_history,
         val_loss_history,
