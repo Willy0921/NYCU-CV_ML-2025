@@ -1,0 +1,22 @@
+defaults:
+  - data: nycu-hw2-data        
+  - model: faster_rcnn    
+  - optimizer: adamw       
+  - trainer: default       
+  - logger: wandb          
+  - _self_                 
+
+seed: 42                   # random seed for reproducibility
+project_name: "faster-rcnn"
+
+predict:
+  score_threshold: 0.5 # Confidence threshold for detections
+  checkpoint_path: ??? # REQUIRED: Set path to your trained .ckpt file
+
+# Hydra working directory
+hydra:
+  run:
+    dir: outputs/${now:%Y-%m-%d}/${now:%H-%M-%S} 
+  sweep:
+    dir: multirun/${now:%Y-%m-%d_%H-%M-%S}
+    subdir: ${hydra.job.num}

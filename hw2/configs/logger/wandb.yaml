@@ -1,0 +1,8 @@
+logger_name: wandb
+
+project: ${project_name}     #  project_name
+name: ${now:%Y-%m-%d}_${now:%H-%M-%S} 
+# entity: # optional, entity name for wandb
+log_model: "all"         # log model artifacts (all, best, last)
+save_dir: "."            # Wandb artifacts save directory
+# offline: False         # offline mode
