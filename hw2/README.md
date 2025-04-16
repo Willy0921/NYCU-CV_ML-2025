@@ -27,8 +27,8 @@ Follow these steps to set up the environment and install dependencies:
    ```
 2. Create environment:
     ```sh
-    conda create -n cv_ml_hw1 python=3.12 -y
-    conda activate cv_ml_hw1
+    conda create -n cv_ml_hw2 python=3.12 -y
+    conda activate cv_ml_hw2
     ```
 3. Install PyTorch with CUDA support
    ```bash
