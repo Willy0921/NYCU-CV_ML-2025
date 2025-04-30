@@ -1,8 +1,10 @@
-# torch>=1.12.0  
 pytorch-lightning>=1.8.0
 wandb
 hydra-core>=1.2.0
 omegaconf>=2.2.0
-torchmetrics>=0.10.0 
+torchmetrics>=0.10.0 # for mAP calculation
 pycocotools 
 Pillow     
+timm
+opencv-python
+scikit-image
