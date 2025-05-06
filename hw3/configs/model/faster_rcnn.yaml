@@ -1,0 +1,13 @@
+name: FasterRCNN
+
+# model config
+num_classes: 11        # include background
+weights: DEFAULT
+
+allow_torch_compile: True # Enable TorchScript compilation for faster inference
+
+attention_head:
+  num_queries: 5
+  num_heads: 8
+  ffn_hidden_dim: 512
+  dropout: 0.1

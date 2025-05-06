@@ -1,0 +1,16 @@
+# _target_: src.datamodules.custom_datamodule.CustomObjectDataModule
+name: "hw3-data"
+
+data_root: ${oc.env:DATA_ROOT, ./data/hw3-data} 
+
+train_split: "train"         # folder name for training images
+# val_split: "valid"           # folder name for validation images
+test_split: "test_release"           # folder name for test images
+
+
+
+batch_size: 1
+num_workers: 4
+pin_memory: False
+
+val_split_ratio: 0.2
