@@ -8,3 +8,4 @@ Pillow
 timm
 opencv-python
 scikit-image
+kornia
