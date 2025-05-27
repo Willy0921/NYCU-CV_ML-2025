@@ -1,0 +1,5 @@
+name: PromptIR
+
+# model config
+# allow_torch_compile: False # Enable TorchScript compilation for faster inference
+allow_torch_compile: True # Enable TorchScript compilation for faster inference
