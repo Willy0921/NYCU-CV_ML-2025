@@ -89,7 +89,7 @@ The best performing model is **Large-multiLoss PromptIR** with **Random Augmenta
 ## Usage
 
 1.  **Dataset:**
-    Place the dataset directory (e.g., `RainSnow_Dataset/`) under the `./data/` folder.
+    Place the dataset directory under the `./data/` folder.
 
 2.  **Setup configs:**
     The configuration files are located in the `configs/` directory.
