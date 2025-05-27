@@ -1,6 +1,4 @@
-Okay, here's a draft for your HW4 README, following the style of your HW3 README and using the information from your HW4 report:
 
----
 
 # NYCU Computer Vision 2025 Spring HW4 - Image Restoration
 
@@ -116,5 +114,3 @@ The best performing model is **Large-multiLoss PromptIR** with **Random Augmenta
 <p align="center">
   <img src="demo/demo.png" alt="Restoration Examples" width="800">
 </p>
-
----
